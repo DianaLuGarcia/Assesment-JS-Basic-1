@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = ('Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.')
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = ('GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.')
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+let gitInitDefinition = ('The git init command creates a new Git repository.')
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+let gitCloneDefinition  =('Used to target an existing repository and create a clone, or copy of the target repository.')
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+let gitStatusDefinition = ('Displays the state of the working directory and the staging area. It lets you see which changes have been staged, which havent, and which files arent being tracked by Git')
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,8 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+let gitAddDefinition = ('The first command in a chain of operations that directs Git to "save" a snapshot of the current project state, into the commit history.')
+let gitAddCode = ('git add .')
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -62,9 +63,8 @@
     Create a variable called 'gitCommitCode'.  
     It should be a string containing the code to commit using the message "initial commit".
 */
-
-//CODE HERE
-
+let gitCommitDefinition = ('A commit is a snapshot of your repo at a specific point in time.')
+let getCommitCode = ('git commit')
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -72,4 +72,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+let gitPushDefinition = ('used to upload local repository content to a remote repository')
