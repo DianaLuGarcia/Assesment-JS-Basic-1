@@ -24,7 +24,7 @@ reader.question("Enter a password to validate:  ", function(input){
 
 //length
   if (userPass.length < 10){
-    console.log('Password is too short!')
+    console.log('Password is too short!');
   }else if (userPass >= 10) {
     console.log('Password is valid!')
   }
